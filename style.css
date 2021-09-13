@@ -1,0 +1,685 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100vw;
+    height: 100vh;
+}
+
+html {
+    width: 100%;
+}
+
+.phoneStyle{
+    background-color: #c10202;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneStyle div{
+    margin: 0em 0em 0em 9.9em;
+}
+
+.phoneStyle div a{
+    color: #ffdd8a!important;
+    font-size: 14px;
+}
+
+.phoneStyle a:first-child{
+    color: white!important;
+    font-size: 14px;
+    margin: 0px 50px 0px 0px;
+}
+
+.navbar {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h6 {
+    color: white;
+    margin: 0px 28px 0px 28px;
+    font-size: 14px;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler {
+    display: flex;
+    border: 4px solid white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    margin: 0px 0px 0px 2vh;
+    font-size: 14px;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    margin: 0px 55px 0px 0px;
+}
+
+.dotStyle {
+    font-size: 6px;
+    color: #ffdd8a;
+    margin: 0px 28px 0px 28px;
+}
+
+.caretStyle {
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+.searchStyle {
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.boxSearch {
+    margin-top: 5px;
+    margin-left: 3vh;
+    background-color: white;
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.firstCarouselStyle {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgStyle {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0.8em;
+    margin: 0em 0em 3em 27.5em;
+    color: white;
+}
+
+.carousel-content h2 {
+    text-align: right;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.carousel-content h5 {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 16px 0px 16px 0px;
+}
+
+.carousel-content button {
+    margin: 27px 0px 27px 221px;
+    background-color: #ffdd8a;
+    border: none;
+    width: 350px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.nextButton {
+    width: 15px;
+    height: 15px;
+    margin: 6px 6px 0px 7px;
+}
+
+.backButton {
+    width: 15px;
+    height: 15px;
+    margin: 6px 7px 0px 6px;
+}
+
+.carouselButton {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.alignBackButton {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2em;
+}
+
+.alignNextButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+
+.containerStyle {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(35, 31, 32, 1) 0%, rgba(35, 31, 32, 1) 30%, rgba(15, 13, 14, 1) 70%, rgba(15, 13, 14, 1) 100%);
+    height: 180px;
+    max-width: 100%;
+}
+
+.columnStyle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.columnStyle h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffdd8a;
+    margin: 0px auto 20px auto;
+}
+
+.columnStyle button {
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.col1Style {
+    background-color: #231f20;
+}
+
+.col2Style {
+    background-color: #1f1b1c;
+}
+
+.col3Style {
+    background-color: #171415;
+}
+
+.col4Style {
+    background-color: #0f0d0e;
+}
+
+/* Style dos produtos */
+
+.produtsSytle {
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 720px;
+    max-width: 100%;
+}
+
+.controlStyle {
+    height: 100px;
+    width: 40px;
+    background: none;
+    margin: auto 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.controlStyle i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.secondCarouselStyle {
+    margin: 0px 50px 50px 0px;
+}
+
+.shopStyle {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.shopStyle h4 {
+    font-size: 13px;
+    margin-top: 23px;
+}
+
+.shopStyle h3 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.shopStyle h2 {
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.shopStyle strike {
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.shopStyle col {
+    width: 255px;
+    height: 305px;
+}
+
+.tituloStyle {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+
+.fa-chevron-right {
+    color: black;
+}
+
+.fa-chevron-left {
+    color: black;
+}
+
+.shoppyNextButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.shoppyBackButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shoppyButton {
+    padding: 5px 15px 0px 15px;
+    border: 2px solid white;
+}
+
+/* Espaço para solicitar contato*/
+
+.contactStyle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 380px;
+}
+
+.contactStyle div {
+    margin-left: 42px;
+}
+
+.contactStyle img {
+    margin-right: 42px;
+}
+
+.contactStyle h1 {
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 33px;
+}
+
+.contactStyle h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.contactStyle button {
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    width: 350px;
+    height: 45px;
+    background-color: #67bb34;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Estilo para formulario*/
+
+.formStyle {
+    height: 528px;
+}
+
+.imageBackground {
+    background: url(img/formulario.jpg);
+    overflow: hidden;
+    /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.margStyle1 {
+    margin-left: 4em;
+    margin-right: 2em;
+}
+
+.margStyle2 {
+    margin-right: 4em;
+    margin-left: 2em;
+}
+
+.formCamp {
+    height: auto;
+    padding: 10px;
+    position: relative;
+    text-align: start;
+}
+
+.formCamp h1 {
+    font-size: clamp(12px, 38px, 38px)!important;
+    font-weight: 900;
+    color: white;
+}
+
+.formCamp h2 {
+    font-size: 25px;
+    color: white;
+}
+
+.form-label {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.form-label span {
+    color: #f92525;
+}
+
+.form-label button {
+    margin-top: 48px;
+}
+
+.tStyle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registerStyle {
+    margin-top: 48px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.imageBackground h1 {
+    color: white;
+    font-size: 50px;
+}
+
+/* Estilos para pagina de informações*/
+
+.informationStyle {
+    background-color: #231F20;
+    height: 355px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: start;
+}
+
+.informationStyle div {
+    margin-right: 5em;
+    margin-top: 80px;
+}
+
+.informationStyle h1 {
+    margin-bottom: 23px;
+    font-size: 21px;
+    font-weight: 900;
+    color: white;
+}
+
+.informationStyle h3 {
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+
+.informationStyle h4 {
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.informationStyle h5 {
+    color: #ffdd8a;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.informationStyle div:first-child {
+    margin-left: 4em;
+}
+
+.fa-whatsapp {
+    margin-right: 6.3px;
+}
+
+.fa-phone-alt {
+    margin-right: 5px;
+}
+
+.fa-instagram {
+    color: #f92525;
+    font-size: 30px;
+    text-align: start;
+}
+
+.fa-facebook-square {
+    color: #f92525;
+    font-size: 30px;
+    margin-right: 21px;
+}
+
+/* footer estilo */
+
+.footerStyle {
+    height: 45px;
+    background-color: #000000;
+}
+
+.footerStyle img {
+    margin-top: 8px;
+}
+
+.whatsappStyle{
+    display: flex;
+    position:fixed;
+    bottom:6vh;
+    left:4vh;
+}
+
+.open-button {
+    background-color: #67bd31;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0px;
+    right: 28px;
+    width: 336px;
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 28px;
+    border: 3px solid #f1f1f1;
+    border-radius: 20px 20px 0px 0px;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 330px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #67bd31;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: #ff0000;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+/* Media query */
+
+@media only screen and (max-width: 575px) {
+    .navbar {
+        display: flex;
+        justify-content: start;
+    }
+    .navbar-toggler {
+        font-size: 30px;
+        background-color: transparent;
+        border-color: white;
+        color: white;
+        margin: 20px 5px 20px 25px!important;
+    }
+    .navbar-nav {
+        margin: 10px 10px 10px 10px;
+    }
+    .navbar a {
+        margin-right: 8px;
+    }
+    .navbar h1 {
+        margin-left: 17.8px;
+        margin-top: 0px;
+    }
+    .boxSearch {
+        margin-left: 17px;
+    }
+    .containerStyle {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        max-width: 100%;
+    }
+    .tituloStyle {
+        margin-top: 2.5em;
+        margin-bottom: 2.5em;
+    }
+    .carousel-item{
+        height: 420px;
+    }
+    .formCamp h1 {
+        font-size: 38px;
+        font-weight: 900;
+    }
+    .carousel-content {
+        margin: 0em 0em 3em 15.5em;
+    }
+    .phoneStyle div{
+        margin: 0px;
+    }
+}

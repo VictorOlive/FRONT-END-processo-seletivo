@@ -1,5 +1,5 @@
 <h1>
-    Front end desenvolvido para um processo seletivo.
+    Front-end desenvolvido para um processo seletivo.
 </h1>
 
 - Esse front-end foi desenvolvido para um processo seletivo, no qual eu tinha 1 dia para desenvolver oque foi proposto, no qual os objetivos eram reproduzir o layout definido pelo designer da forma mais parecida e responsiva possível.
